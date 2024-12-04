@@ -1,10 +1,10 @@
-📊 **Testando os Modelos de Machine Learning
+📊 **Testando os Modelos de Machine Learning**
 
 Passo a passo de como carregar os datasets e rodar os modelos de classificação e regressão.
 
 🛠️ Passos para Testar os Modelos
 
-1️⃣ **Faça o download dos datasets
+1️⃣ **Faça o download dos datasets**
 
 Baixe os seguintes arquivos no seu computador:
 
@@ -15,7 +15,7 @@ houses.csv
 obesity.csv
 
 
-2️⃣ **Faça o upload dos arquivos no ambiente
+2️⃣ **Faça o upload dos arquivos no ambiente**
 
 Rode a primeira célula do notebook.
 
@@ -32,7 +32,7 @@ Faça o upload do alzheimer.csv, depois houses.csv e por fim obesity.csv.
 
 
 
-3️⃣**Treinamento dos modelos
+3️⃣**Treinamento dos modelos**
 
 Após os uploads, você poderá executar o treinamentos dos modelos.
 
