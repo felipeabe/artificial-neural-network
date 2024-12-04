@@ -1,16 +1,39 @@
-# artificial-neural-network
+📊 Testando os Modelos de Machine Learning
 
-Como testar os modelos
+Passo a passo de como carregar os datasets e rodar os modelos de classificação e regressão.
 
-1. 
-Fazer o download dos 3 CSVs (alzheimer.csv, houses.csv, obesity.csv)
-   
-2.
-![image](https://github.com/user-attachments/assets/c19ff1c7-b1df-4d88-8ee1-793ab72874be)
+🛠️ Passos para Testar os Modelos
 
-Rode a primeira célula, clique no botão "Escolher arquivos", e selecione 
-o csv no seu computador para fazer o upload, esse processo deve ser feito 3 vezes,
-para que os 3 CSVs estejam no ambiente de execução
+1️⃣ Faça o download dos datasets
 
-3. 
-Depois disso, será possível ver o o treinamento dos modelos
+Baixe os seguintes arquivos no seu computador:
+
+alzheimer.csv
+
+houses.csv
+
+obesity.csv
+
+
+2️⃣ Faça o upload dos arquivos no ambiente
+
+Rode a primeira célula do notebook.
+
+Você verá um botão: "Escolher arquivos".
+Selecione os arquivos CSV do seu computador:
+
+
+<div align="center"> <img src="https://github.com/user-attachments/assets/c19ff1c7-b1df-4d88-8ee1-793ab72874be" alt="Interface de upload" width="600"/> </div>
+
+
+Faça o upload do alzheimer.csv, depois houses.csv e por fim obesity.csv.
+
+(A célula deverá ser executada 3 vezes, uma pra cada upload de csv)
+
+
+
+3️⃣Treinamento dos modelos
+
+Após os uploads, você poderá executar o treinamentos dos modelos.
+
+📈 Você verá os resultados exibidos no console, incluindo métricas como perda e acurácia.
