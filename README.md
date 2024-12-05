@@ -1,46 +1,75 @@
-Alunos: 
-Bruno Rafael Leal Machado (17100897)
+# ![INE5664 - Aprendizado de Máquina](https://upload.wikimedia.org/wikipedia/commons/8/82/Ufsc_bras%C3%A3o.svg)
 
-Diogo Henrique Fragoso de Oliveira (16203891)
+# Projeto Final - Implementação de uma Rede Neural Artificial
 
-Felipe Hiroyuki Abe (21202327)
+## INE5664-07238 (20242) - Aprendizado de Máquina  
+*Universidade Federal de Santa Catarina (UFSC)*  
+*Curso de Sistemas de Informação*  
 
-📊 **Testando os Modelos de Machine Learning**
+### Alunos  
+- *Diogo Henrique* (Matrícula: 16203891)  
+- *Bruno Rafael Leal Machado* (Matrícula: 17100897)  
+- *Felipe Hiroyuki Abe* (Matrícula: 21202327)  
 
-Passo a passo de como carregar os datasets e rodar os modelos de classificação e regressão.
+### Professor  
+- *Eduardo Camilo Inácio*
 
-🛠️ Passos para Testar os Modelos
+---
 
-1️⃣ **Faça o download dos datasets**
+## Descrição do Projeto  
+Este projeto consiste na implementação de uma Rede Neural Artificial (RNA) utilizando Python, com foco em prever dados para três tipos de tarefas:  
+1. *Regressão*  
+2. *Classificação Binária*  
+3. *Classificação Multiclasse*
 
-Baixe os seguintes arquivos no seu computador:
+A RNA foi implementada do zero, seguindo os conceitos teóricos estudados na disciplina e utilizando recursos de baixo nível para respeitar os princípios matemáticos do modelo. Ferramentas como *NumPy, **Pandas, **Scikit-learn* e *Matplotlib* foram utilizadas para manipulação e visualização de dados.
 
-alzheimer.csv
+O desempenho foi avaliado com datasets públicos e validados com métricas como Erro Médio Quadrático (MSE) para regressão e Acurácia para classificação.
 
-houses.csv
+---
 
-obesity.csv
+## Estrutura do Repositório  
+O repositório contém os seguintes itens:
 
+- *Código-fonte da Rede Neural*:
+  - Implementação da RNA em Python (neural_network.py) com suporte a retropropagação, gradiente descendente e funções de ativação/perda.
+- *Notebooks Jupyter*:
+  - Fluxo completo de treinamento e avaliação para os três tipos de modelos. Compatível com Google Colab.
+- *Conjuntos de Dados*:
+  - datasets/ com os arquivos utilizados para avaliação do modelo:
+    - alzheimer.csv (Classificação Binária)
+    - houses.csv (Regressão)
+    - multiclass_dataset.csv (Classificação Multiclasse)
+- *Arquivo README*:
+  - Explicação do projeto, instruções de uso e detalhes da implementação.
 
-2️⃣ **Faça o upload dos arquivos no ambiente**
+---
 
-Rode a primeira célula do notebook.
+## Modelos de Predição Treinados  
+1. *Regressão*:
+   - Previsão de valores contínuos (e.g., preço de imóveis).
+   - Métrica: Erro Médio Quadrático (MSE).
+2. *Classificação Binária*:
+   - Previsão de duas classes (e.g., diagnóstico de Alzheimer).
+   - Métrica: Acurácia.
+3. *Classificação Multiclasse*:
+   - Previsão de múltiplas categorias.
+   - Métrica: Acurácia.
 
-Você verá um botão: "Escolher arquivos".
-Selecione os arquivos CSV do seu computador:
+---
 
+## Requisitos do Sistema  
+- *Python 3.10 ou superior*  
+- Bibliotecas:  
+  - NumPy  
+  - Pandas  
+  - Matplotlib  
+  - Scikit-learn  
 
-<div align="center"> <img src="https://github.com/user-attachments/assets/c19ff1c7-b1df-4d88-8ee1-793ab72874be" alt="Interface de upload" width="600"/> </div>
+---
 
-
-Faça o upload do alzheimer.csv, depois houses.csv e por fim obesity.csv.
-
-(A célula deverá ser executada 3 vezes, uma pra cada upload de csv)
-
-
-
-3️⃣**Treinamento dos modelos**
-
-Após os uploads, você poderá executar o treinamentos dos modelos.
-
-📈 Você verá os resultados exibidos no console, incluindo métricas como perda e acurácia.
+## Instruções de Uso  
+1. *Clonar o Repositório*:
+   ```bash
+   git clone https://github.com/<usuario>/<projeto>.git
+   cd <projeto>
