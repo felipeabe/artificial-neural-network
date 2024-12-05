@@ -46,3 +46,12 @@ def tanh_derivative(x):
     Derivada da função Tanh.
     """
     return 1 - np.tanh(x) ** 2
+
+def softmax(x):
+    """
+    Função de ativação Softmax.
+    Retorna uma distribuição de probabilidades para uma entrada.
+    """
+    # Subtrair o valor máximo de x para maior estabilidade numérica
+    exp_x = np.exp(x - np.max(x))
+    return exp_x / np.sum(exp_x, axis=-1, keepdims=True)
