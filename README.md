@@ -74,4 +74,4 @@ O repositório contém os seguintes itens:
    git clone https://github.com/felipeabe/artificial-neural-network
    cd artificial-neural-network
 
-2. *
+
