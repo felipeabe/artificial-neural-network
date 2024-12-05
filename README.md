@@ -1,3 +1,8 @@
+Alunos: 
+Bruno Rafael Leal Machado (17100897)
+Diogo Henrique Fragoso de Oliveira (16203891)
+Felipe Hiroyuki Abe (21202327)
+
 📊 **Testando os Modelos de Machine Learning**
 
 Passo a passo de como carregar os datasets e rodar os modelos de classificação e regressão.
