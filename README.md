@@ -71,5 +71,7 @@ O repositório contém os seguintes itens:
 ## Instruções de Uso  
 1. *Clonar o Repositório*:
    ```bash
-   git clone https://github.com/<usuario>/<projeto>.git
-   cd <projeto>
+   git clone https://github.com/felipeabe/artificial-neural-network
+   cd artificial-neural-network
+
+2. *
