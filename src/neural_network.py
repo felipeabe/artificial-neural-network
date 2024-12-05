@@ -20,7 +20,15 @@ def ativacao_relu(x):
 def ativacao_tanh(x):
     """Função Tanh: mapeia valores reais para o intervalo (-1, 1)."""
     return np.tanh(x)
-
+    
+def softmax(x):
+    """
+    Função de ativação Softmax.
+    Retorna uma distribuição de probabilidades para uma entrada.
+    """
+    # Subtrair o valor máximo de x para maior estabilidade numérica
+    exp_x = np.exp(x - np.max(x))
+    return exp_x / np.sum(exp_x, axis=-1, keepdims=True)
 # Derivadas das funções de ativação
 # Usadas na retropropagação para ajustar pesos com base nos gradientes.
 def derivada_sigmoid(x):
@@ -70,6 +78,8 @@ class RedeNeural:
         elif ativacao == "tanh":
             self.funcao_ativacao = ativacao_tanh
             self.derivada_ativacao = derivada_tanh
+        elif ativacao == "softmax":
+            self.funcao_ativacao = softmax
         else:
             raise ValueError("Função de ativação inválida! Escolha 'relu', 'sigmoid' ou 'tanh'.")
 
